@@ -1,0 +1,56 @@
+:root {
+  --light: #fff;
+  --dark: #000;
+
+  --silv: #ddd;
+  --light-silv: #ededed;
+  --orange: #F17E00;
+  --link: #6F6F6F;
+  --green: #75C94D;
+  --blue: #2196f3;
+}
+
+#page {
+  min-width: 320px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+
+  .wrapper {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 16px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #page {
+    font-size: 14px;
+
+    .wrapper {
+      padding: 0 24px;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #page {
+    font-size: 16px;
+
+    .wrapper {
+      padding: 0 32px;
+    }
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  #page {
+    .wrapper {
+      padding: 0;
+    }
+  }
+}

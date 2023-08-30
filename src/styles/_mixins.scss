@@ -1,0 +1,15 @@
+@mixin flexble {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin flexCenter {
+  display: flex;
+  align-items: center;
+}
+
+@mixin gridGap {
+  display: grid;
+  gap: 16px;
+}

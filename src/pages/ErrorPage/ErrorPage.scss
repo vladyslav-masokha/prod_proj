@@ -1,0 +1,35 @@
+.errorPage {
+ background: var(--light);
+ min-height: 100vh;
+ position: relative;
+ overflow: hidden;
+
+ .wrapper {
+  padding: 0;
+  margin: 0;
+ }
+
+ .errorPageBody {
+  width: 100%;
+  position: absolute;
+  top: 40%;
+  text-align: center;
+  color: var(--blue);
+
+  .typeErr {
+   font-size: 5em;
+   font-weight: 700;
+  }
+
+  .textErr {
+   font-size: 24px;
+  }
+
+  .homeLink {
+   color: var(--green);
+   font-size: 14px;
+   font-weight: 700;
+   line-height: 32px;
+  }
+ }
+}
